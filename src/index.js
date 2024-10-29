@@ -18,7 +18,7 @@ window.addEventListener("click", function (event) {
     !closeBtn.contains(event.target) &&
     !document.querySelector(".sidebar").contains(event.target)
   ) {
-    document.querySelector(".sidebar").classList.toggle("translate-x-full");
+    document.querySelector(".sidebar").classList.remove("translate-x-full");
     document.body.style.backgroundColor = "white";
   }
   if (
